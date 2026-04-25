@@ -12,7 +12,7 @@ const AdminNavigator = () => {
         <Stack.Navigator
             screenOptions={{
                 headerStyle: {
-                    backgroundColor: "#5856D6",
+                    backgroundColor: "#007AFF",
                 },
                 headerTintColor: "#fff",
                 headerTitleStyle: {
@@ -20,11 +20,11 @@ const AdminNavigator = () => {
                 },
             }}
         >
-            <Stack.Screen
-                name="AdminDashboard"
-                component={AdminDashboardScreen}
-                options={{ title: "Admin Dashboard" }}
-            />
+             <Stack.Screen
+                 name="AdminDashboard"
+                 component={AdminDashboardScreen}
+                 options={{ title: "Queue App" }}
+             />
             <Stack.Screen
                 name="CreateQueue"
                 component={CreateQueueScreen}

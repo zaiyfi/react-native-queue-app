@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // For USB debugging: Run `adb reverse tcp:5000 tcp:5000` on your computer
 // For WiFi debugging: Use your computer's IP address (e.g., 'http://192.168.1.x:5000')
-const BASE_URL = 'http://10.0.2.2:5000';
+const BASE_URL = 'http://localhost:5000';
 const API_URL = `${BASE_URL}/api/auth`;
 
 export interface AuthResponse {
